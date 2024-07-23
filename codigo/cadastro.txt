@@ -1,0 +1,102 @@
+Cadastro de cliente
+Data: 2024-07-22 10:07:56.707980
+Nome: agatha
+CPF/CNPJ: 3734578
+Número para contato:3w7548
+Email: agatha@gmail.com
+rua verde, 890
+Tipo de serviço e data da entrega
+Tipo de Serviço: logo caminhao
+Data de entrega:29/07/2024
+Forma de Pagamento
+Valor do serviço: 1500
+Prazo/Vista: vista
+Data do Recebimento: 22/07/2024
+Forma de Pagamento: pix
+---------------------------------------------------------------
+Cadastro de cliente
+Data: 2024-07-23 15:14:39.743860
+Nome: maria
+CPF/CNPJ: 293850203
+Número para contato:24059324
+Email: maria@gmail.com
+rua mascavo, 908, 54520070, casa amarela, recife, pernambuco
+Tipo de serviço e data da entrega
+Tipo de Serviço: arte de logo
+Data de entrega do serviço:29/07/2024
+Forma de Pagamento
+Valor do serviço: 200.00
+Prazo/Vista: prazo
+Modo de pagamento: cartao
+Quantidade de parcelas: 2
+Cadastro de cliente
+Data: 2024-07-23 15:18:41.215768
+-----------------------------------------------------------------
+Cadastro de cliente
+Data: 2024-07-23 15:29:53.082709
+Nome: jorge
+CPF/CNPJ: 6655652565
+Número para contato:564198484521
+Email: jorge@gmail.com
+rua luz, 789, 54570070, pernambuco, recife, casa azul
+Tipo de serviço e data da entrega
+Tipo de Serviço: arte de logo 
+Data de entrega do serviço:29/07/2024
+Forma de Pagamento
+Valor do serviço: 156.00
+Prazo/Vista: vista
+Modo de pagamento: cartao
+Quantidade de parcelas: nao
+Forma de Pagamento: 
+---------------------------------------------------------------
+
+Cadastro de cliente
+Data: 2024-07-23 15:44:31.074449
+Nome: lucas
+CPF/CNPJ: 3942929553
+Número para contato:359035959
+Email: lucas@gmail.com
+rua gonçalves, 489, 8902304, recife, pernambuco
+Tipo de serviço e data da entrega
+Tipo de Serviço: arte placa
+Data de entrega do serviço:12/08/2024
+Forma de Pagamento
+Valor do serviço: 1.500
+Prazo/Vista: vista
+Modo de pagamento: cartao
+Quantidade de parcelas: 
+Forma de Pagamento: 
+---------------------------------------------------------------
+
+Nome: wonwoo
+Cliente: pessoa fisica
+CPF2049353489
+Número para contato:10358395935
+Email: wonwoo@gmail.com
+rua seoul, 90, 839430930, sao paulo, SP
+Tipo de serviço e data da entrega
+Tipo de Serviço: logo para caminhao
+Data de entrega do serviço:01/08/2024
+Forma de Pagamento
+Valor do serviço: 1,800.00
+Prazo/Vista: prazo
+Modo de pagamento: credito
+Quantidade de parcelas: 10
+---------------------------------------------------------------
+Cadastro de cliente
+Data: 2024-07-23 16:04:35.930422
+Nome: amaro
+Cliente: juridica
+CPF147785000126
+Número para contato:125872
+Email: amaro@gmail.com
+rua clarisse, iputinga, recife, 521447854124154, pernambuco
+Tipo de serviço e data da entrega
+Tipo de Serviço: logo para site
+Data de entrega do serviço:24/07/2024
+Forma de Pagamento
+Valor do serviço: 150.00
+Prazo/Vista: vista
+Modo de pagamento: pix
+Quantidade de parcelas: 
+---------------------------------------------------------------
