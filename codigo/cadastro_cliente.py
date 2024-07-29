@@ -13,13 +13,13 @@ def boas_vindas():
 
 def cadastro():
     msg = "Cadastro de cliente"  
-    nome = str(input("Digite o nome do cliente: "))
-    cliente = str(input("Cliente Pessoa Física ou Juridica: "))
-    cpf_cnpj = str(input("Digite o CPF ou CNPJ: "))
-    telefone_celular = str(input("Digite o número para contato celuar: "))
-    telefone_fixo = str(input("Digite o telefone fixo: "))
-    email = str(input("Digite o email: "))
-    endereco = str(input("Digite o endereço(rua/avenida, bairro, número, CEP, estado ou compl.): "))
+    nome = ("Digite o nome do cliente: ")
+    cliente = ("Cliente Pessoa Física ou Juridica: ")
+    cpf_cnpj = ("Digite o CPF ou CNPJ: ")
+    telefone_celular = ("Digite o número para contato celuar: ")
+    telefone_fixo = ("Digite o telefone fixo: ")
+    email = ("Digite o email: ")
+    endereco = ("Digite o endereço(rua/avenida, bairro, número, CEP, estado ou compl.): ")
 
 
     with open("cadastro.txt", "a+", newline="", encoding="utf-8") as arquivo:

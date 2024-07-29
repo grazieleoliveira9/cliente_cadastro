@@ -100,3 +100,75 @@ Prazo/Vista: vista
 Modo de pagamento: pix
 Quantidade de parcelas: 
 ---------------------------------------------------------------
+Cadastro de cliente
+Nome: Digite o nome do cliente: 
+Cliente: Cliente Pessoa Física ou Juridica: 
+CPFDigite o CPF ou CNPJ: 
+Número para contato:Digite o número para contato celuar: 
+Número para contato:Digite o telefone fixo: 
+Email: Digite o email: 
+Digite o endereço(rua/avenida, bairro, número, CEP, estado ou compl.): 
+Cadastro de cliente
+Nome: Digite o nome do cliente: 
+Cliente: Cliente Pessoa Física ou Juridica: 
+CPFDigite o CPF ou CNPJ: 
+Número para contato:Digite o número para contato celuar: 
+Número para contato:Digite o telefone fixo: 
+Email: Digite o email: 
+Digite o endereço(rua/avenida, bairro, número, CEP, estado ou compl.): 
+Cadastro de cliente
+Nome: Digite o nome do cliente: 
+Cliente: Cliente Pessoa Física ou Juridica: 
+CPFDigite o CPF ou CNPJ: 
+Número para contato:Digite o número para contato celuar: 
+Número para contato:Digite o telefone fixo: 
+Email: Digite o email: 
+Digite o endereço(rua/avenida, bairro, número, CEP, estado ou compl.): 
+Cadastro de cliente
+Nome: Digite o nome do cliente: 
+Cliente: Cliente Pessoa Física ou Juridica: 
+CPFDigite o CPF ou CNPJ: 
+Número para contato:Digite o número para contato celuar: 
+Número para contato:Digite o telefone fixo: 
+Email: Digite o email: 
+Digite o endereço(rua/avenida, bairro, número, CEP, estado ou compl.): 
+Cadastro de cliente
+Nome: Digite o nome do cliente: 
+Cliente: Cliente Pessoa Física ou Juridica: 
+CPFDigite o CPF ou CNPJ: 
+Número para contato:Digite o número para contato celuar: 
+Número para contato:Digite o telefone fixo: 
+Email: Digite o email: 
+Digite o endereço(rua/avenida, bairro, número, CEP, estado ou compl.): 
+Cadastro de cliente
+Nome: Digite o nome do cliente: 
+Cliente: Cliente Pessoa Física ou Juridica: 
+CPFDigite o CPF ou CNPJ: 
+Número para contato:Digite o número para contato celuar: 
+Número para contato:Digite o telefone fixo: 
+Email: Digite o email: 
+Digite o endereço(rua/avenida, bairro, número, CEP, estado ou compl.): 
+Cadastro de cliente
+Nome: Digite o nome do cliente: 
+Cliente: Cliente Pessoa Física ou Juridica: 
+CPFDigite o CPF ou CNPJ: 
+Número para contato:Digite o número para contato celuar: 
+Número para contato:Digite o telefone fixo: 
+Email: Digite o email: 
+Digite o endereço(rua/avenida, bairro, número, CEP, estado ou compl.): 
+Cadastro de cliente
+Nome: Digite o nome do cliente: 
+Cliente: Cliente Pessoa Física ou Juridica: 
+CPFDigite o CPF ou CNPJ: 
+Número para contato:Digite o número para contato celuar: 
+Número para contato:Digite o telefone fixo: 
+Email: Digite o email: 
+Digite o endereço(rua/avenida, bairro, número, CEP, estado ou compl.): 
+Cadastro de cliente
+Nome: Digite o nome do cliente: 
+Cliente: Cliente Pessoa Física ou Juridica: 
+CPFDigite o CPF ou CNPJ: 
+Número para contato:Digite o número para contato celuar: 
+Número para contato:Digite o telefone fixo: 
+Email: Digite o email: 
+Digite o endereço(rua/avenida, bairro, número, CEP, estado ou compl.): 
