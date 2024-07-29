@@ -1,0 +1,49 @@
+Tabela de Pagamento: 
+Valor: 123,00
+Data: 2024-07-29
+Forma de Pagamento: Cartão de Crédito
+N° de Recibo: 789
+Parcelas: 1x
+
+Tabela de Pagamento: 
+Valor: 678,00
+Data: 2024-07-29
+Forma de Pagamento: Dinheiro
+N° de Recibo: 89
+Parcelas: 
+
+Tabela de Pagamento: 
+Valor: 180,00
+Data: 2024-07-29
+Forma de Pagamento: Cartão de Crédito
+N° de Recibo: 78,00
+Parcelas: 1x
+
+Tabela de Pagamento: 
+Valor: 567,00
+Data: 2024-07-29
+Forma de Pagamento: Dinheiro
+N° de Recibo: 567,00
+Parcelas: 
+
+Tabela de Pagamento: 
+Valor: 180,00
+Data: 2024-07-29
+Forma de Pagamento: Cartão de Crédito
+N° de Recibo: 123
+Parcelas: 1x
+
+Tabela de Pagamento: 
+Valor: 180,00
+Data: 2024-07-29
+Forma de Pagamento: Cartão de Crédito
+N° de Recibo: 89
+Parcelas: 1x
+
+Tabela de Pagamento: 
+Valor: 123,00
+Data: 2024-07-29
+Forma de Pagamento: Cartão de Crédito
+N° de Recibo: 123
+Parcelas: 1x
+
