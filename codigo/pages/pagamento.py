@@ -7,11 +7,10 @@ import pandas as pd
 st.title("Pagamento")
 
 if 'df' not in st.session_state:
-    st.session_state['df'] = pd.DataFrame(columns=['Tabela de Pagamento', 'Valor', 'Data', 'Forma de Pagamento', 'N° de Recibo', 'Parcelas'])
+    st.session_state['df'] = pd.DataFrame(columns=['Valor', 'Data', 'Forma de Pagamento', 'N° de Recibo', 'Parcelas'])
 
 def salvar_dados_txt(dados, filename='dados_pagamento.txt'):
     with open(filename, 'a') as f:
-        f.write(f"Tabela de Pagamento: {dados['Tabela de Pagamento'][0]}\n")
         f.write(f"Valor: {dados['Valor'][0]}\n")
         f.write(f"Data: {dados['Data'][0]}\n")
         f.write(f"Forma de Pagamento: {dados['Forma de Pagamento'][0]}\n")
@@ -33,7 +32,7 @@ def pagamento():
     
 
     with col2:
-        d = st.date_input("Data de Pagamento", format="DD/MM/YYYY")
+        data = st.date_input("Data de Pagamento", format="DD/MM/YYYY")
 
 
     with col3:
@@ -47,9 +46,8 @@ def pagamento():
 
     if botao:
          novo_pgto = pd.DataFrame({
-            'Tabela de Pagamento': [''],
             'Valor': [valor],
-            'Data': [d], 
+            'Data': [data], 
             'Forma de Pagamento': [form_pgto],
             'N° de Recibo': [numero],
             'Parcelas': [parcelas]

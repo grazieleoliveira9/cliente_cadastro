@@ -47,3 +47,16 @@ Forma de Pagamento: Cartão de Crédito
 N° de Recibo: 123
 Parcelas: 1x
 
+Tabela de Pagamento: 
+Valor: 120,00
+Data: 2024-07-30
+Forma de Pagamento: Dinheiro
+N° de Recibo: 90
+Parcelas: 
+
+Valor: 180,00
+Data: 2024-07-30
+Forma de Pagamento: Cartão de Crédito
+N° de Recibo: 123
+Parcelas: 1x
+
