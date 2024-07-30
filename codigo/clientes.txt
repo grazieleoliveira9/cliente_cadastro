@@ -1,0 +1,40 @@
+Nome: joao barbosa
+CPF/CNPJ: 10520369802
+Fisica/Juridica: Pessoa F�sica
+Email: joaoa@gmail.com
+Telefone fixo: 
+Telefone celular: 81985184013
+Nome: joao barbosa
+CPF/CNPJ: 10520369802
+Fisica/Juridica: ('Pessoa F�sica',)
+Email: joaoa@gmail.com
+Telefone fixo: 81985184013
+Telefone celular: 81985184013
+Nome: joao barbosa
+CPF/CNPJ: 10520369802
+Fisica/Juridica: ('Pessoa Física',)
+Email: joaoa@gmail.com
+Telefone fixo: 81985184013
+Telefone celular: 81985184013
+Endereço: rua trapiche
+Nº casa/apto: 389
+Bairro: garapu
+Cidade: cabo de santo agostinho
+Complemento: casa a
+CEP: 54517120
+UF: PE
+
+Nome: joao barbosa
+CPF/CNPJ: 10520369802
+Fisica/Juridica: ('Pessoa Física',)
+Email: joaoa@gmail.com
+Telefone fixo: 81985184013
+Telefone celular: 81985184013
+Endereço: rua trapiche
+Nº casa/apto: 389
+Bairro: garapu
+Cidade: cabo de santo agostinho
+Complemento: casa a
+CEP: 54517120
+UF: PE
+
