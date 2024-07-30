@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import random
 
 
 st.title("Cadastro de cliente")
@@ -30,13 +31,10 @@ def form_cadastro():
 
     col1, col2 = st.columns(2)
 
-    with col1: pessoa = st.radio("Digite o tipo de pessoa", options=["Pessoa Física", "Pessoa Jurídica"])
+    with col1: pessoa = st.radio("Escolha uma opção", options=["Pessoa Física", "Pessoa Jurídica"])
 
-
-    
 
     with col2:
-        # cpf_cnpj = st.text_input("CPF/CNPJ", placeholder="000.000.000-00 ou 00.000.000/0000-00", max_chars=15,)
 
         if pessoa == "Pessoa Física":
             st.text_input("CPF:", placeholder="000.000.000-00", max_chars=11)
@@ -44,14 +42,15 @@ def form_cadastro():
         else:
             st.text_input("CNPJ:", placeholder="00.000.000/0000-00", max_chars=14)
       
+        
 
-
-
-
-
-
+    # col9, col10 = st.columns(2)
 
     email = st.text_input("Email:", placeholder="joao@gmail.com", max_chars=50)
+    
+
+    # with col10: codigo = random.randint(1000, 9999)
+
 
     col3, col4 = st.columns(2)
 
@@ -113,6 +112,7 @@ def form_cadastro():
         })
         st.session_state['df'] = pd.concat([st.session_state['df'], novo_cadastro], ignore_index=True)
         salvar_dados_txt(novo_cadastro)
+        
         st.success('Cadastrado com sucesso!', icon="✅")
 
 

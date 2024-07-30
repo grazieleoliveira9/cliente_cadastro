@@ -1,12 +1,13 @@
+
 Nome: joao barbosa
 CPF/CNPJ: 10520369802
-Fisica/Juridica: Pessoa Física
+Fisica/Juridica: Pessoa Fï¿½sica
 Email: joaoa@gmail.com
 Telefone fixo: 
 Telefone celular: 81985184013
 Nome: joao barbosa
 CPF/CNPJ: 10520369802
-Fisica/Juridica: ('Pessoa Física',)
+Fisica/Juridica: ('Pessoa Fï¿½sica',)
 Email: joaoa@gmail.com
 Telefone fixo: 81985184013
 Telefone celular: 81985184013
