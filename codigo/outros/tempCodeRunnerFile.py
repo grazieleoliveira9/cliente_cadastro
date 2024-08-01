@@ -1,0 +1,1 @@
+con.execute("PRAGMA foreign_keys = ON;")
