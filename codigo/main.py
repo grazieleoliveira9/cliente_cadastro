@@ -96,19 +96,19 @@ def form_cadastro():
     if botao_cadastro:
 
         novo_cadastro = pd.DataFrame({
-            'Nome': [nome],
-            'CPF/CNPJ': [col2],
-            'Fisica/Juridica': [pessoa],
-            'Email': [email],
-            'Telefone fixo': [telefone_fixo],
-            'Telefone celular': [telefone_celular],
-            'Endereço': [endereco],
-            'Nº casa/apto': [numero],
-            'Bairro': [bairro],
-            'Cidade': [cidade],
-            'Complemento': [complemento],
-            'CEP': [cep],
-            'UF': [uf]
+            'Nome': [str(nome)],
+            'CPF/CNPJ': [str(col2)],
+            'Fisica/Juridica': [str(pessoa)],
+            'Email': [str(email)],
+            'Telefone fixo': [int(telefone_fixo)],
+            'Telefone celular': [int(telefone_celular)],
+            'Endereço': [str(endereco)],
+            'Nº casa/apto': [int(numero)],
+            'Bairro': [str(bairro)],
+            'Cidade': [str(cidade)],
+            'Complemento': [str(complemento)],
+            'CEP': [int(cep)],
+            'UF': [str(uf)]
         })
         st.session_state['df'] = pd.concat([st.session_state['df'], novo_cadastro], ignore_index=True)
         salvar_dados_txt(novo_cadastro)
