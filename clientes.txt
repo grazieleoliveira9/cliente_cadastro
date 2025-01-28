@@ -12,3 +12,568 @@ Complemento: casa a
 CEP: 54517120
 UF: PE
 
+Nome: Maria da Silva
+CPF/CNPJ: DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(2, 1), _index=1), _parent=DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(2,), _index=2), _parent=DeltaGenerator(), _block_type='horizontal', _form_data=FormData(form_id='')), _block_type='column', _form_data=FormData(form_id=''))
+Fisica/Juridica: Pessoa Física
+Email: maria@gmail.com
+Telefone fixo: 81963528721
+Telefone celular: 81963528721
+Endereço: Rua sol
+Nº casa/apto: 45
+Bairro: Boa viagem
+Cidade: Recife
+Complemento: 
+CEP: 5452002
+UF: PE
+
+Nome: Florisse Onofre 
+CPF/CNPJ: DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(2, 1), _index=1), _parent=DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(2,), _index=2), _parent=DeltaGenerator(), _block_type='horizontal', _form_data=FormData(form_id='')), _block_type='column', _form_data=FormData(form_id=''))
+Fisica/Juridica: Pessoa Física
+Email: florisse@gmail.com
+Telefone fixo: 81954698422
+Telefone celular: 81955325685
+Endereço: Rua 70
+Nº casa/apto: 13
+Bairro: Cohab
+Cidade: Cabo de Santo Agostinho
+Complemento: 
+CEP: 5452002
+UF: PE
+
+Nome: 
+CPF/CNPJ: DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(2, 1), _index=1), _parent=DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(2,), _index=2), _parent=DeltaGenerator(), _block_type='horizontal', _form_data=FormData(form_id='')), _block_type='column', _form_data=FormData(form_id=''))
+Fisica/Juridica: Pessoa Física
+Email: Diana Maria
+Telefone fixo: 81985184013
+Telefone celular: 81985184013
+Endereço: rua trapiche
+Nº casa/apto: 389
+Bairro: garapu
+Cidade: cabo de santo agostinho
+Complemento: casa a
+CEP: 54517120
+UF: PE
+
+Nome: joao barbosa
+CPF/CNPJ: DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(2, 1), _index=1), _parent=DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(2,), _index=2), _parent=DeltaGenerator(), _block_type='horizontal', _form_data=FormData(form_id='')), _block_type='column', _form_data=FormData(form_id=''))
+Fisica/Juridica: Pessoa Física
+Email: joaoa@gmail.com
+Telefone fixo: 81985184013
+Telefone celular: 81985184013
+Endereço: rua trapiche
+Nº casa/apto: 389
+Bairro: garapu
+Cidade: cabo de santo agostinho
+Complemento: casa a
+CEP: 54517120
+UF: PE
+
+Nome: joao barbosa
+CPF/CNPJ: DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(2, 1), _index=1), _parent=DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(2,), _index=2), _parent=DeltaGenerator(), _block_type='horizontal', _form_data=FormData(form_id='')), _block_type='column', _form_data=FormData(form_id=''))
+Fisica/Juridica: Pessoa Física
+Email: joaoa@gmail.com
+Telefone fixo: 81985184013
+Telefone celular: 81985184013
+Endereço: rua trapiche
+Nº casa/apto: 389
+Bairro: garapu
+Cidade: cabo de santo agostinho
+Complemento: casa a
+CEP: 54517120
+UF: PE
+
+Nome: joao barbosa
+CPF/CNPJ: DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(2, 1), _index=1), _parent=DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(2,), _index=2), _parent=DeltaGenerator(), _block_type='horizontal', _form_data=FormData(form_id='')), _block_type='column', _form_data=FormData(form_id=''))
+Fisica/Juridica: Pessoa Física
+Email: joaoa@gmail.com
+Telefone fixo: 81985184013
+Telefone celular: 81985184013
+Endereço: rua trapiche
+Nº casa/apto: 389
+Bairro: garapu
+Cidade: cabo de santo agostinho
+Complemento: casa a
+CEP: 54517120
+UF: PE
+
+Nome: joao barbosa
+CPF/CNPJ: DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(2, 1), _index=1), _parent=DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(2,), _index=2), _parent=DeltaGenerator(), _block_type='horizontal', _form_data=FormData(form_id='')), _block_type='column', _form_data=FormData(form_id=''))
+Fisica/Juridica: Pessoa Física
+Email: joaoa@gmail.com
+Telefone fixo: 81985184013
+Telefone celular: 81985184013
+Endereço: rua trapiche
+Nº casa/apto: 389
+Bairro: garapu
+Cidade: cabo de santo agostinho
+Complemento: casa a
+CEP: 54517120
+UF: PE
+
+Nome: joao barbosa
+CPF/CNPJ: DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(2, 1), _index=1), _parent=DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(2,), _index=2), _parent=DeltaGenerator(), _block_type='horizontal', _form_data=FormData(form_id='')), _block_type='column', _form_data=FormData(form_id=''))
+Fisica/Juridica: Pessoa Física
+Email: joaoa@gmail.com
+Telefone fixo: 81985184013
+Telefone celular: 81985184013
+Endereço: rua trapiche
+Nº casa/apto: 389
+Bairro: garapu
+Cidade: cabo de santo agostinho
+Complemento: casa a
+CEP: 54517120
+UF: PE
+
+Nome: joao barbosa
+CPF/CNPJ: DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(2, 1), _index=1), _parent=DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(2,), _index=2), _parent=DeltaGenerator(), _block_type='horizontal', _form_data=FormData(form_id='')), _block_type='column', _form_data=FormData(form_id=''))
+Fisica/Juridica: Pessoa Física
+Email: joaoa@gmail.com
+Telefone fixo: 81985184013
+Telefone celular: 81985184013
+Endereço: rua trapiche
+Nº casa/apto: 389
+Bairro: garapu
+Cidade: cabo de santo agostinho
+Complemento: casa a
+CEP: 54517120
+UF: PE
+
+Nome: joao barbosa
+CPF/CNPJ: DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(2, 1), _index=1), _parent=DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(2,), _index=2), _parent=DeltaGenerator(), _block_type='horizontal', _form_data=FormData(form_id='')), _block_type='column', _form_data=FormData(form_id=''))
+Fisica/Juridica: Pessoa Física
+Email: joaoa@gmail.com
+Telefone fixo: 81985184013
+Telefone celular: 81985184013
+Endereço: rua trapiche
+Nº casa/apto: 389
+Bairro: garapu
+Cidade: cabo de santo agostinho
+Complemento: casa a
+CEP: 54517120
+UF: PE
+
+Nome: joao barbosa
+CPF/CNPJ: DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(2, 1), _index=1), _parent=DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(2,), _index=2), _parent=DeltaGenerator(), _block_type='horizontal', _form_data=FormData(form_id='')), _block_type='column', _form_data=FormData(form_id=''))
+Fisica/Juridica: Pessoa Física
+Email: joaoa@gmail.com
+Telefone fixo: 81985184013
+Telefone celular: 81985184013
+Endereço: rua trapiche
+Nº casa/apto: 389
+Bairro: garapu
+Cidade: cabo de santo agostinho
+Complemento: casa a
+CEP: 54517120
+UF: PE
+
+Nome: joao barbosa
+CPF/CNPJ: DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(2, 1), _index=1), _parent=DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(2,), _index=2), _parent=DeltaGenerator(), _block_type='horizontal', _form_data=FormData(form_id='')), _block_type='column', _form_data=FormData(form_id=''))
+Fisica/Juridica: Pessoa Física
+Email: joaoa@gmail.com
+Telefone fixo: 81985184013
+Telefone celular: 81985184013
+Endereço: rua trapiche
+Nº casa/apto: 389
+Bairro: garapu
+Cidade: cabo de santo agostinho
+Complemento: casa a
+CEP: 54517120
+UF: PE
+
+Nome: joao barbosa
+CPF/CNPJ: DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(2, 1), _index=1), _parent=DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(2,), _index=2), _parent=DeltaGenerator(), _block_type='horizontal', _form_data=FormData(form_id='')), _block_type='column', _form_data=FormData(form_id=''))
+Fisica/Juridica: Pessoa Física
+Email: joaoa@gmail.com
+Telefone fixo: 81985184013
+Telefone celular: 81985184013
+Endereço: rua trapiche
+Nº casa/apto: 389
+Bairro: garapu
+Cidade: cabo de santo agostinho
+Complemento: casa a
+CEP: 54517120
+UF: PE
+
+Nome: joao barbosa
+CPF/CNPJ: DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(2, 1), _index=1), _parent=DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(2,), _index=2), _parent=DeltaGenerator(), _block_type='horizontal', _form_data=FormData(form_id='')), _block_type='column', _form_data=FormData(form_id=''))
+Fisica/Juridica: Pessoa Física
+Email: joaoa@gmail.com
+Telefone fixo: 81985184013
+Telefone celular: 81985184013
+Endereço: rua trapiche
+Nº casa/apto: 389
+Bairro: garapu
+Cidade: cabo de santo agostinho
+Complemento: casa a
+CEP: 54517120
+UF: PE
+
+Nome: joao barbosa
+CPF/CNPJ: DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(2, 1), _index=1), _parent=DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(2,), _index=2), _parent=DeltaGenerator(), _block_type='horizontal', _form_data=FormData(form_id='')), _block_type='column', _form_data=FormData(form_id=''))
+Fisica/Juridica: Pessoa Física
+Email: joaoa@gmail.com
+Telefone fixo: 81985184013
+Telefone celular: 81985184013
+Endereço: rua trapiche
+Nº casa/apto: 389
+Bairro: garapu
+Cidade: cabo de santo agostinho
+Complemento: casa a
+CEP: 54517120
+UF: PE
+
+Nome: joao barbosa
+CPF/CNPJ: DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(2, 1), _index=1), _parent=DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(2,), _index=2), _parent=DeltaGenerator(), _block_type='horizontal', _form_data=FormData(form_id='')), _block_type='column', _form_data=FormData(form_id=''))
+Fisica/Juridica: Pessoa Física
+Email: joaoa@gmail.com
+Telefone fixo: 81985184013
+Telefone celular: 81985184013
+Endereço: rua trapiche
+Nº casa/apto: 389
+Bairro: garapu
+Cidade: cabo de santo agostinho
+Complemento: casa a
+CEP: 54517120
+UF: PE
+
+Nome: joao barbosa
+CPF/CNPJ: DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(2, 1), _index=1), _parent=DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(2,), _index=2), _parent=DeltaGenerator(), _block_type='horizontal', _form_data=FormData(form_id='')), _block_type='column', _form_data=FormData(form_id=''))
+Fisica/Juridica: Pessoa Física
+Email: joaoa@gmail.com
+Telefone fixo: 81985184013
+Telefone celular: 81985184013
+Endereço: rua trapiche
+Nº casa/apto: 389
+Bairro: garapu
+Cidade: cabo de santo agostinho
+Complemento: casa a
+CEP: 54517120
+UF: PE
+
+Nome: joao barbosa
+CPF/CNPJ: DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(2, 1), _index=1), _parent=DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(2,), _index=2), _parent=DeltaGenerator(), _block_type='horizontal', _form_data=FormData(form_id='')), _block_type='column', _form_data=FormData(form_id=''))
+Fisica/Juridica: Pessoa Física
+Email: joaoa@gmail.com
+Telefone fixo: 81985184013
+Telefone celular: 81985184013
+Endereço: rua trapiche
+Nº casa/apto: 389
+Bairro: garapu
+Cidade: cabo de santo agostinho
+Complemento: casa a
+CEP: 54517120
+UF: PE
+
+Nome: joao barbosa
+CPF/CNPJ: DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(2, 1), _index=1), _parent=DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(2,), _index=2), _parent=DeltaGenerator(), _block_type='horizontal', _form_data=FormData(form_id='')), _block_type='column', _form_data=FormData(form_id=''))
+Fisica/Juridica: Pessoa Física
+Email: joaoa@gmail.com
+Telefone fixo: 81985184013
+Telefone celular: 81985184013
+Endereço: rua trapiche
+Nº casa/apto: 389
+Bairro: garapu
+Cidade: cabo de santo agostinho
+Complemento: casa a
+CEP: 54517120
+UF: PE
+
+Nome: joao barbosa
+CPF/CNPJ: DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(2, 1), _index=1), _parent=DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(2,), _index=2), _parent=DeltaGenerator(), _block_type='horizontal', _form_data=FormData(form_id='')), _block_type='column', _form_data=FormData(form_id=''))
+Fisica/Juridica: Pessoa Física
+Email: joaoa@gmail.com
+Telefone fixo: 81985184013
+Telefone celular: 81985184013
+Endereço: rua trapiche
+Nº casa/apto: 389
+Bairro: garapu
+Cidade: cabo de santo agostinho
+Complemento: casa a
+CEP: 54517120
+UF: PE
+
+Nome: joao barbosa
+CPF/CNPJ: DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(2, 1), _index=1), _parent=DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(2,), _index=2), _parent=DeltaGenerator(), _block_type='horizontal', _form_data=FormData(form_id='')), _block_type='column', _form_data=FormData(form_id=''))
+Fisica/Juridica: Pessoa Física
+Email: joaoa@gmail.com
+Telefone fixo: 81985184013
+Telefone celular: 81985184013
+Endereço: rua trapiche
+Nº casa/apto: 389
+Bairro: garapu
+Cidade: cabo de santo agostinho
+Complemento: casa a
+CEP: 54517120
+UF: PE
+
+Nome: joao barbosa
+CPF/CNPJ: DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(2, 1), _index=1), _parent=DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(2,), _index=2), _parent=DeltaGenerator(), _block_type='horizontal', _form_data=FormData(form_id='')), _block_type='column', _form_data=FormData(form_id=''))
+Fisica/Juridica: Pessoa Física
+Email: joaoa@gmail.com
+Telefone fixo: 81985184013
+Telefone celular: 81985184013
+Endereço: rua trapiche
+Nº casa/apto: 389
+Bairro: garapu
+Cidade: cabo de santo agostinho
+Complemento: casa a
+CEP: 54517120
+UF: PE
+
+Nome: joao barbosa
+CPF/CNPJ: DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(2, 1), _index=1), _parent=DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(2,), _index=2), _parent=DeltaGenerator(), _block_type='horizontal', _form_data=FormData(form_id='')), _block_type='column', _form_data=FormData(form_id=''))
+Fisica/Juridica: Pessoa Física
+Email: joaoa@gmail.com
+Telefone fixo: 81985184013
+Telefone celular: 81985184013
+Endereço: rua trapiche
+Nº casa/apto: 389
+Bairro: garapu
+Cidade: cabo de santo agostinho
+Complemento: casa a
+CEP: 54517120
+UF: PE
+
+Nome: joao barbosa
+CPF/CNPJ: DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(2, 1), _index=1), _parent=DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(2,), _index=2), _parent=DeltaGenerator(), _block_type='horizontal', _form_data=FormData(form_id='')), _block_type='column', _form_data=FormData(form_id=''))
+Fisica/Juridica: Pessoa Física
+Email: joaoa@gmail.com
+Telefone fixo: 81985184013
+Telefone celular: 81985184013
+Endereço: rua trapiche
+Nº casa/apto: 389
+Bairro: garapu
+Cidade: cabo de santo agostinho
+Complemento: casa a
+CEP: 54517120
+UF: PE
+
+Nome: Isabel Medeiros
+CPF/CNPJ: 14512365690
+Fisica/Juridica: Pessoa Física
+Email: isabel@gmail.com
+Telefone fixo: 81985184013
+Telefone celular: 81985184013
+Endereço: rua carimbo
+Nº casa/apto: 78
+Bairro: ipsep
+Cidade: recife
+Complemento: casa b
+CEP: 54517120
+UF: PE
+
+Nome: Isabel Medeiros
+CPF/CNPJ: 14512365690
+Fisica/Juridica: Pessoa Física
+Email: isabel@gmail.com
+Telefone fixo: 81985184013
+Telefone celular: 81985184013
+Endereço: rua carimbo
+Nº casa/apto: 78
+Bairro: ipsep
+Cidade: recife
+Complemento: casa b
+CEP: 54517120
+UF: PE
+
+Nome: Isabel Medeiros
+CPF/CNPJ: 14512365690
+Fisica/Juridica: Pessoa Física
+Email: isabel@gmail.com
+Telefone fixo: 81985184013
+Telefone celular: 81985184013
+Endereço: rua carimbo
+Nº casa/apto: 78
+Bairro: ipsep
+Cidade: recife
+Complemento: casa b
+CEP: 54517120
+UF: PE
+
+Nome: Isabel Medeiros
+CPF/CNPJ: 14512365690
+Fisica/Juridica: Pessoa Física
+Email: isabel@gmail.com
+Telefone fixo: 81985184013
+Telefone celular: 81985184013
+Endereço: rua carimbo
+Nº casa/apto: 78
+Bairro: ipsep
+Cidade: recife
+Complemento: casa b
+CEP: 54517120
+UF: PE
+
+Nome: Isabel Medeiros
+CPF/CNPJ: 14512365690
+Fisica/Juridica: Pessoa Física
+Email: isabel@gmail.com
+Telefone fixo: 81985184013
+Telefone celular: 81985184013
+Endereço: rua carimbo
+Nº casa/apto: 78
+Bairro: ipsep
+Cidade: recife
+Complemento: casa b
+CEP: 54517120
+UF: PE
+
+Nome: Lidia Oliveira
+CPF/CNPJ: 14512365690
+Fisica/Juridica: Pessoa Física
+Email: isabel@gmail.com
+Telefone fixo: 8135219697
+Telefone celular: 81985184013
+Endereço: rua nuvem
+Nº casa/apto: 52
+Bairro: jordao
+Cidade: recife
+Complemento: casa a
+CEP: 54517120
+UF: PE
+
+Nome: Luis Oliveira
+CPF/CNPJ: 14512365690
+Fisica/Juridica: Pessoa Física
+Email: isabel@gmail.com
+Telefone fixo: 8135219697
+Telefone celular: 81985184013
+Endereço: rua nuvem
+Nº casa/apto: 52
+Bairro: jordao
+Cidade: recife
+Complemento: casa a
+CEP: 54517120
+UF: PE
+
+Nome: Angelica da Silva
+CPF/CNPJ: 10510620536
+Fisica/Juridica: Pessoa Física
+Email: angelica@gmail.com
+Telefone fixo: 81985184013
+Telefone celular: 81985184013
+Endereço: rua sol nascente
+Nº casa/apto: 45
+Bairro: areias
+Cidade: recife
+Complemento: casa a
+CEP: 54517120
+UF: PE
+
+Nome: Angelica da Silva
+CPF/CNPJ: 10510620536
+Fisica/Juridica: Pessoa Física
+Email: angelica@gmail.com
+Telefone fixo: 81985184013
+Telefone celular: 81985184013
+Endereço: rua sol nascente
+Nº casa/apto: 45
+Bairro: areias
+Cidade: recife
+Complemento: casa a
+CEP: 54517120
+UF: PE
+
+Nome: joao barbosa
+CPF/CNPJ: 10520369802
+Fisica/Juridica: Pessoa Física
+Email: joaoa@gmail.com
+Telefone fixo: 81985184013
+Telefone celular: 81985184013
+Endereço: rua sol nascente
+Nº casa/apto: 45
+Bairro: areias
+Cidade: recife
+Complemento: casa a
+CEP: 54517120
+UF: PE
+
+Nome: laura brasil
+CPF/CNPJ: 10610938401
+Fisica/Juridica: Pessoa Física
+Email: laura@gmail.com
+Telefone fixo: 81985463281
+Telefone celular: 81985184013
+Endereço: rua eraldo barros de souza
+Nº casa/apto: 12
+Bairro: cohab
+Cidade: cabo de santo agostinho
+Complemento: casa a
+CEP: 54520070
+UF: PE
+
+Data: 2025-01-27
+Nome: joao barbosa
+CPF/CNPJ: 10520369802
+Fisica/Juridica: Pessoa Física
+Email: joaoa@gmail.com
+Telefone fixo: 81985184013
+Telefone celular: 81985184013
+Endereço: rua sol nascente
+Nº casa/apto: 45
+Bairro: areias
+Cidade: recife
+Complemento: casa a
+CEP: 54517120
+UF: PE
+
+Data: 2025-01-27
+Nome: Lucia Silva
+CPF/CNPJ: 10520369802
+Fisica/Juridica: Pessoa Física
+Email: lucia@gmail.com
+Telefone fixo: 81985184013
+Telefone celular: 81985184013
+Endereço: rua sol nascente
+Nº casa/apto: 45
+Bairro: areias
+Cidade: recife
+Complemento: casa a
+CEP: 54517120
+UF: PE
+
+Data: 2025-01-27
+Nome: Lucia Silva
+CPF/CNPJ: 10520369802
+Fisica/Juridica: Pessoa Física
+Email: lucia@gmail.com
+Telefone fixo: 81985184013
+Telefone celular: 81985184013
+Endereço: rua sol nascente
+Nº casa/apto: 45
+Bairro: garapu
+Cidade: cabo de santo agostinho
+Complemento: casa a
+CEP: 54517120
+UF: PE
+
+Data: 2025-01-27
+Nome: Carmem Janiele
+CPF/CNPJ: 10520369802
+Fisica/Juridica: Pessoa Física
+Email: janiele@gmail.com
+Telefone fixo: 81985184013
+Telefone celular: 81985184013
+Endereço: rua sol nascente
+Nº casa/apto: 45
+Bairro: areias
+Cidade: recife
+Complemento: casa a
+CEP: 54517120
+UF: PE
+
+Data: 2025-01-27
+Nome: Lucia Silva
+CPF/CNPJ: 10520369802
+Fisica/Juridica: Pessoa Física
+Email: lucia@gmail.com
+Telefone fixo: 81985184013
+Telefone celular: 2552165302
+Endereço: rua sol nascente
+Nº casa/apto: 45
+Bairro: areias
+Cidade: recife
+Complemento: casa b
+CEP: 54517120
+UF: PE
+

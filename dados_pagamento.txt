@@ -1,0 +1,190 @@
+Valor: 123,00
+Data: 2025-01-16
+Forma de Pagamento: Cartão de Débito
+N° de Recibo: 45896
+Parcelas: 
+
+Valor: 123,00
+Data: 2025-01-16
+Forma de Pagamento: Cartão de Crédito
+N° de Recibo: 45632
+Parcelas: 1x
+
+Valor: 123.00
+Data: 2025-01-16
+Forma de Pagamento: Cartão de Crédito
+N° de Recibo: 45632
+Parcelas: 1x
+
+Valor: 123.00
+Data: 2025-01-16
+Forma de Pagamento: Cartão de Crédito
+N° de Recibo: 45632
+Parcelas: 1x
+
+Valor: 123.00
+Data: 2025-01-16
+Forma de Pagamento: Cartão de Crédito
+N° de Recibo: 45632
+Parcelas: 1x
+
+Valor: 123.00
+Data: 2025-01-16
+Forma de Pagamento: Cartão de Crédito
+N° de Recibo: 45632
+Parcelas: 1x
+
+Valor: 123.00
+Data: 2025-01-16
+Forma de Pagamento: Cartão de Crédito
+N° de Recibo: 45632
+Parcelas: 1x
+
+Valor: 123.00
+Data: 2025-01-16
+Forma de Pagamento: Cartão de Crédito
+N° de Recibo: 45632
+Parcelas: 1x
+
+Valor: 123.00
+Data: 2025-01-16
+Forma de Pagamento: Cartão de Crédito
+N° de Recibo: 45632
+Parcelas: 1x
+
+Valor: 123.00
+Data: 2025-01-16
+Forma de Pagamento: Cartão de Crédito
+N° de Recibo: 45632
+Parcelas: 1x
+
+Valor: 123.00
+Data: 2025-01-16
+Forma de Pagamento: Cartão de Crédito
+N° de Recibo: 45632
+Parcelas: 1x
+
+Valor: 123.00
+Data: 2025-01-16
+Forma de Pagamento: Cartão de Crédito
+N° de Recibo: 45632
+Parcelas: 1x
+
+Valor: 123.00
+Data: 2025-01-16
+Forma de Pagamento: Cartão de Crédito
+N° de Recibo: 45632
+Parcelas: 1x
+
+Valor: 123.00
+Data: 2025-01-16
+Forma de Pagamento: Cartão de Crédito
+N° de Recibo: 45632
+Parcelas: 1x
+
+Valor: 123.00
+Data: 2025-01-16
+Forma de Pagamento: Cartão de Crédito
+N° de Recibo: 45632
+Parcelas: 1x
+
+Valor: 123.00
+Data: 2025-01-16
+Forma de Pagamento: Cartão de Crédito
+N° de Recibo: 45632
+Parcelas: 1x
+
+Valor: 123.00
+Data: 2025-01-16
+Forma de Pagamento: Cartão de Crédito
+N° de Recibo: 45632
+Parcelas: 1x
+
+Valor: 123.00
+Data: 2025-01-16
+Forma de Pagamento: Cartão de Crédito
+N° de Recibo: 45632
+Parcelas: 1x
+
+Valor: 123.00
+Data: 2025-01-16
+Forma de Pagamento: Cartão de Crédito
+N° de Recibo: 45632
+Parcelas: 1x
+
+Valor: 150
+Data: 2025-01-16
+Forma de Pagamento: Cartão de Crédito
+N° de Recibo: 14636
+Parcelas: 1x
+
+Valor: 150
+Data: 2025-01-16
+Forma de Pagamento: Cartão de Crédito
+N° de Recibo: 14636
+Parcelas: 1x
+
+Valor: 180,00
+Data: 2025-01-16
+Forma de Pagamento: Cartão de Crédito
+N° de Recibo: 1456
+Parcelas: 1x
+
+Valor: 678,00
+Data: 2025-01-16
+Forma de Pagamento: Cartão de Crédito
+N° de Recibo: 67
+Parcelas: 1x
+
+Valor: 678,00
+Data: 2025-01-16
+Forma de Pagamento: Cartão de Crédito
+N° de Recibo: 67
+Parcelas: 1x
+
+Nome: 1
+Valor: 678,00
+Data: 2025-01-16
+Forma de Pagamento: Cartão de Crédito
+N° de Recibo: 67
+Parcelas: 1x
+
+Nome: 1
+Valor: 678,00
+Data: 2025-01-16
+Forma de Pagamento: Cartão de Crédito
+N° de Recibo: 67
+Parcelas: 1x
+
+Nome: 1
+Valor: 50
+Data: 2025-01-16
+Forma de Pagamento: Cartão de Crédito
+N° de Recibo: 456
+Parcelas: 1x
+Cliente: Maria da Silva
+
+Nome: 1
+Valor: 50
+Data: 2025-01-16
+Forma de Pagamento: Cartão de Crédito
+N° de Recibo: 456
+Parcelas: 1x
+Cliente: Maria da Silva
+
+Nome: 1
+Valor: 50
+Data: 2025-01-16
+Forma de Pagamento: Cartão de Crédito
+N° de Recibo: 456
+Parcelas: 1x
+Cliente: Maria da Silva
+
+Nome: 1
+Valor: 50
+Data: 2025-01-16
+Forma de Pagamento: Cartão de Crédito
+N° de Recibo: 456
+Parcelas: 1x
+Cliente: Maria da Silva
+
