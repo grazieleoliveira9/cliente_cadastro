@@ -1,11 +1,11 @@
 import streamlit as st
 import pandas as pd
-from core.db import conectar_banco, criar_tabela, inserir_pagamento, buscar_clientes, atualizar_tabela_pagamentos
+from core.db import conectar_banco, criar_tabela, inserir_pagamento, buscar_clientes
 from core.logger import logger
 
 conn, c = conectar_banco()
 criar_tabela(c)
-atualizar_tabela_pagamentos(c)
+# atualizar_tabela_pagamentos(c)
 
 st.title("Pagamento")
 

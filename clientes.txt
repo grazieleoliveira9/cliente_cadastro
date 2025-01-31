@@ -577,3 +577,303 @@ Complemento: casa b
 CEP: 54517120
 UF: PE
 
+Data: 2025-01-28
+Nome: 
+CPF/CNPJ: 
+Fisica/Juridica: Pessoa Física
+Email: 
+Telefone fixo: 
+Telefone celular: 
+Endereço: 
+Nº casa/apto: 
+Bairro: 
+Cidade: 
+Complemento: 
+CEP: 
+UF: 
+
+Data: 2025-01-28
+Nome: 
+CPF/CNPJ: 
+Fisica/Juridica: Pessoa Física
+Email: 
+Telefone fixo: 
+Telefone celular: 
+Endereço: 
+Nº casa/apto: 
+Bairro: 
+Cidade: 
+Complemento: 
+CEP: 
+UF: 
+
+Data: 2025-01-28
+Nome: 
+CPF/CNPJ: 
+Fisica/Juridica: Pessoa Física
+Email: 
+Telefone fixo: 
+Telefone celular: 
+Endereço: 
+Nº casa/apto: 
+Bairro: 
+Cidade: 
+Complemento: 
+CEP: 
+UF: 
+
+Data: 2025-01-28
+Nome: 
+CPF/CNPJ: 
+Fisica/Juridica: Pessoa Física
+Email: 
+Telefone fixo: 
+Telefone celular: 
+Endereço: 
+Nº casa/apto: 
+Bairro: 
+Cidade: 
+Complemento: 
+CEP: 
+UF: 
+
+Data: 2025-01-28
+Nome: Dalila Oliveira
+CPF/CNPJ: 45632178901
+Fisica/Juridica: Pessoa Física
+Email: dalila_oliveira@gmail.com
+Telefone fixo: 8135219697
+Telefone celular: 81985462315
+Endereço: Rua Cascalho
+Nº casa/apto: 78
+Bairro: Boa viagem
+Cidade: Recife
+Complemento: Perto da Padaria Pao Nosso
+CEP: 54236070
+UF: PE
+
+Data: 2025-01-28
+Nome: 
+CPF/CNPJ: 
+Fisica/Juridica: Pessoa Física
+Email: 
+Telefone fixo: 
+Telefone celular: 
+Endereço: 
+Nº casa/apto: 
+Bairro: 
+Cidade: 
+Complemento: 
+CEP: 
+UF: 
+
+Data: 2025-01-28
+Nome: 
+CPF/CNPJ: 
+Fisica/Juridica: Pessoa Física
+Email: 
+Telefone fixo: 
+Telefone celular: 
+Endereço: 
+Nº casa/apto: 
+Bairro: 
+Cidade: 
+Complemento: 
+CEP: 
+UF: 
+
+Data: 2025-01-28
+Nome: 
+CPF/CNPJ: 
+Fisica/Juridica: Pessoa Física
+Email: 
+Telefone fixo: 
+Telefone celular: 
+Endereço: 
+Nº casa/apto: 
+Bairro: 
+Cidade: 
+Complemento: 
+CEP: 
+UF: 
+
+Data: 2025-01-28
+Nome: 
+CPF/CNPJ: 
+Fisica/Juridica: Pessoa Física
+Email: 
+Telefone fixo: 
+Telefone celular: 
+Endereço: 
+Nº casa/apto: 
+Bairro: 
+Cidade: 
+Complemento: 
+CEP: 
+UF: 
+
+Data: 2025-01-28
+Nome: 
+CPF/CNPJ: 
+Fisica/Juridica: Pessoa Física
+Email: 
+Telefone fixo: 
+Telefone celular: 
+Endereço: 
+Nº casa/apto: 
+Bairro: 
+Cidade: 
+Complemento: 
+CEP: 
+UF: 
+
+Data: 2025-01-28
+Nome: 
+CPF/CNPJ: 
+Fisica/Juridica: Pessoa Física
+Email: 
+Telefone fixo: 
+Telefone celular: 
+Endereço: 
+Nº casa/apto: 
+Bairro: 
+Cidade: 
+Complemento: 
+CEP: 
+UF: 
+
+Data: 2025-01-28
+Nome: 
+CPF/CNPJ: 
+Fisica/Juridica: Pessoa Física
+Email: 
+Telefone fixo: 
+Telefone celular: 
+Endereço: 
+Nº casa/apto: 
+Bairro: 
+Cidade: 
+Complemento: 
+CEP: 
+UF: 
+
+Data: 2025-01-28
+Nome: 
+CPF/CNPJ: 
+Fisica/Juridica: Pessoa Física
+Email: 
+Telefone fixo: 
+Telefone celular: 
+Endereço: 
+Nº casa/apto: 
+Bairro: 
+Cidade: 
+Complemento: 
+CEP: 
+UF: 
+
+Data: 2025-01-28
+Nome: 
+CPF/CNPJ: 
+Fisica/Juridica: Pessoa Física
+Email: 
+Telefone fixo: 
+Telefone celular: 
+Endereço: 
+Nº casa/apto: 
+Bairro: 
+Cidade: 
+Complemento: 
+CEP: 
+UF: 
+
+Data: 2025-01-28
+Nome: 
+CPF/CNPJ: 
+Fisica/Juridica: Pessoa Física
+Email: 
+Telefone fixo: 
+Telefone celular: 
+Endereço: 
+Nº casa/apto: 
+Bairro: 
+Cidade: 
+Complemento: 
+CEP: 
+UF: 
+
+Data: 2025-01-28
+Nome: 
+CPF/CNPJ: 
+Fisica/Juridica: Pessoa Física
+Email: 
+Telefone fixo: 
+Telefone celular: 
+Endereço: 
+Nº casa/apto: 
+Bairro: 
+Cidade: 
+Complemento: 
+CEP: 
+UF: 
+
+Data: 2025-01-28
+Nome: 
+CPF/CNPJ: 
+Fisica/Juridica: Pessoa Física
+Email: 
+Telefone fixo: 
+Telefone celular: 
+Endereço: 
+Nº casa/apto: 
+Bairro: 
+Cidade: 
+Complemento: 
+CEP: 
+UF: 
+
+Data: 2025-01-28
+Nome: 
+CPF/CNPJ: 
+Fisica/Juridica: Pessoa Física
+Email: 
+Telefone fixo: 
+Telefone celular: 
+Endereço: 
+Nº casa/apto: 
+Bairro: 
+Cidade: 
+Complemento: 
+CEP: 
+UF: 
+
+Data: 2025-01-28
+Nome: 
+CPF/CNPJ: 
+Fisica/Juridica: Pessoa Física
+Email: 
+Telefone fixo: 
+Telefone celular: 
+Endereço: 
+Nº casa/apto: 
+Bairro: 
+Cidade: 
+Complemento: 
+CEP: 
+UF: 
+
+Data: 2025-01-28
+Nome: joao barbosa
+CPF/CNPJ: 10520369802
+Fisica/Juridica: Pessoa Física
+Email: joaoa@gmail.com
+Telefone fixo: 81985184013
+Telefone celular: 81985184013
+Endereço: rua sol nascente
+Nº casa/apto: 45
+Bairro: areias
+Cidade: recife
+Complemento: casa a
+CEP: 54517120
+UF: PE
+
