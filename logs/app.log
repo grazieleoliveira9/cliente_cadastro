@@ -12221,3 +12221,91 @@ TypeError: HeadingMixin.subheader() missing 1 required positional argument: 'bod
 2025-01-28 12:48:03 - WARNING - Campos nao preenchidos, cadastro nao realizado!
 2025-01-28 12:48:03 - WARNING - Campos nao preenchidos, cadastro nao realizado!
 2025-01-31 10:00:23 - WARNING - Campos nao preenchidos, cadastro nao realizado!
+2025-01-31 10:12:01 - WARNING - Campos nao preenchidos, cadastro nao realizado!
+2025-01-31 10:34:06 - WARNING - Campos nao preenchidos, cadastro nao realizado!
+2025-01-31 10:34:12 - INFO - Cadastrando dados do cliente...
+2025-01-31 10:34:12 - WARNING - Campos nao preenchidos, cadastro nao realizado!
+2025-01-31 10:34:19 - WARNING - Campos nao preenchidos, cadastro nao realizado!
+2025-01-31 10:34:23 - WARNING - Campos nao preenchidos, cadastro nao realizado!
+2025-01-31 10:34:27 - WARNING - Campos nao preenchidos, cadastro nao realizado!
+2025-01-31 10:34:28 - WARNING - Campos nao preenchidos, cadastro nao realizado!
+2025-01-31 10:34:31 - WARNING - Campos nao preenchidos, cadastro nao realizado!
+2025-01-31 10:34:33 - WARNING - Campos nao preenchidos, cadastro nao realizado!
+2025-01-31 10:34:34 - WARNING - Campos nao preenchidos, cadastro nao realizado!
+2025-01-31 10:34:35 - WARNING - Campos nao preenchidos, cadastro nao realizado!
+2025-01-31 10:34:36 - WARNING - Campos nao preenchidos, cadastro nao realizado!
+2025-01-31 10:34:38 - WARNING - Campos nao preenchidos, cadastro nao realizado!
+2025-01-31 10:34:44 - WARNING - Campos nao preenchidos, cadastro nao realizado!
+2025-01-31 10:34:46 - ERROR - Erro ao cadastrar cliente: cannot access local variable 'novo_cadastro' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\graziele.oliveira\cliente_cadastro\codigo\main.py", line 181, in <module>
+    form_cadastro()
+  File "C:\Users\graziele.oliveira\cliente_cadastro\codigo\main.py", line 165, in form_cadastro
+    st.session_state['df'] = pd.concat([st.session_state['df'], novo_cadastro], ignore_index=True)
+                                                                ^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'novo_cadastro' where it is not associated with a value
+2025-01-31 10:34:46 - INFO - Cadastrando dados do cliente...
+2025-01-31 10:34:46 - INFO - Cadastrado de cliente feito com sucesso!
+2025-02-03 11:11:25 - WARNING - Campos nao preenchidos, cadastro nao realizado!
+2025-02-03 11:12:40 - INFO - Pagamento concluído
+2025-02-03 11:20:00 - WARNING - Campos nao preenchidos, cadastro nao realizado!
+2025-02-03 11:22:17 - WARNING - Campos nao preenchidos, cadastro nao realizado!
+2025-02-03 11:23:15 - WARNING - Campos nao preenchidos, cadastro nao realizado!
+2025-02-03 11:23:25 - WARNING - Campos nao preenchidos, cadastro nao realizado!
+2025-02-03 11:23:28 - WARNING - Campos nao preenchidos, cadastro nao realizado!
+2025-02-03 11:23:39 - WARNING - Campos nao preenchidos, cadastro nao realizado!
+2025-02-03 11:23:46 - WARNING - Campos nao preenchidos, cadastro nao realizado!
+2025-02-03 11:23:47 - WARNING - Campos nao preenchidos, cadastro nao realizado!
+2025-02-03 11:23:49 - WARNING - Campos nao preenchidos, cadastro nao realizado!
+2025-02-03 11:23:50 - WARNING - Campos nao preenchidos, cadastro nao realizado!
+2025-02-03 11:23:51 - WARNING - Campos nao preenchidos, cadastro nao realizado!
+2025-02-03 11:23:53 - WARNING - Campos nao preenchidos, cadastro nao realizado!
+2025-02-03 11:23:54 - WARNING - Campos nao preenchidos, cadastro nao realizado!
+2025-02-03 11:23:55 - WARNING - Campos nao preenchidos, cadastro nao realizado!
+2025-02-03 11:23:57 - ERROR - Erro ao cadastrar cliente: cannot access local variable 'novo_cadastro' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\graziele.oliveira\cliente_cadastro\codigo\main.py", line 183, in <module>
+    form_cadastro()
+  File "C:\Users\graziele.oliveira\cliente_cadastro\codigo\main.py", line 167, in form_cadastro
+    st.session_state['df'] = pd.concat([st.session_state['df'], novo_cadastro], ignore_index=True)
+                                                                ^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'novo_cadastro' where it is not associated with a value
+2025-02-03 11:23:57 - INFO - Cadastrando dados do cliente...
+2025-02-03 11:23:57 - INFO - Cadastrado de cliente feito com sucesso!
+2025-02-03 11:24:00 - WARNING - Campos nao preenchidos, cadastro nao realizado!
+2025-02-03 11:26:55 - WARNING - Campos nao preenchidos, cadastro nao realizado!
+2025-02-03 11:29:16 - WARNING - Campos nao preenchidos, cadastro nao realizado!
+2025-02-03 11:29:29 - WARNING - Campos nao preenchidos, cadastro nao realizado!
+2025-02-03 11:29:31 - WARNING - Campos nao preenchidos, cadastro nao realizado!
+2025-02-03 11:29:32 - WARNING - Campos nao preenchidos, cadastro nao realizado!
+2025-02-03 11:29:35 - WARNING - Campos nao preenchidos, cadastro nao realizado!
+2025-02-03 11:29:36 - WARNING - Campos nao preenchidos, cadastro nao realizado!
+2025-02-03 11:29:38 - WARNING - Campos nao preenchidos, cadastro nao realizado!
+2025-02-03 11:29:39 - WARNING - Campos nao preenchidos, cadastro nao realizado!
+2025-02-03 11:29:40 - WARNING - Campos nao preenchidos, cadastro nao realizado!
+2025-02-03 11:29:42 - WARNING - Campos nao preenchidos, cadastro nao realizado!
+2025-02-03 11:29:44 - WARNING - Campos nao preenchidos, cadastro nao realizado!
+2025-02-03 11:29:45 - WARNING - Campos nao preenchidos, cadastro nao realizado!
+2025-02-03 11:29:46 - ERROR - Erro ao cadastrar cliente: cannot access local variable 'novo_cadastro' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\graziele.oliveira\cliente_cadastro\codigo\main.py", line 183, in <module>
+    form_cadastro()
+  File "C:\Users\graziele.oliveira\cliente_cadastro\codigo\main.py", line 167, in form_cadastro
+    st.session_state['df'] = pd.concat([st.session_state['df'], novo_cadastro], ignore_index=True)
+                                                                ^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'novo_cadastro' where it is not associated with a value
+2025-02-03 11:29:46 - INFO - Cadastrando dados do cliente...
+2025-02-03 11:29:46 - INFO - Cadastrado de cliente feito com sucesso!
+2025-02-03 11:34:23 - WARNING - Campos nao preenchidos, cadastro nao realizado!
+2025-02-03 11:34:59 - WARNING - Campos nao preenchidos, cadastro nao realizado!
+2025-02-03 11:36:11 - WARNING - Campos nao preenchidos, cadastro nao realizado!
+2025-02-03 11:37:08 - WARNING - Campos nao preenchidos, cadastro nao realizado!
+2025-02-03 11:37:56 - WARNING - Campos nao preenchidos, cadastro nao realizado!
+2025-02-03 12:40:57 - WARNING - Campos nao preenchidos, cadastro nao realizado!
+2025-02-03 12:44:36 - WARNING - Campos nao preenchidos, cadastro nao realizado!
+2025-02-03 12:46:41 - WARNING - Campos nao preenchidos, cadastro nao realizado!
+2025-02-03 13:00:29 - WARNING - Campos nao preenchidos, cadastro nao realizado!
+2025-02-03 13:01:11 - WARNING - Campos nao preenchidos, cadastro nao realizado!
+2025-02-03 13:04:16 - WARNING - Campos nao preenchidos, cadastro nao realizado!
+2025-02-03 13:07:35 - WARNING - Campos nao preenchidos, cadastro nao realizado!
+2025-02-03 13:38:24 - WARNING - Campos nao preenchidos, cadastro nao realizado!

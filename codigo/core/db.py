@@ -43,15 +43,17 @@ def criar_tabela(cursor):
         )
     ''')
 
-def adicionar_coluna_data(cursor):
+def adicionar_coluna_nome(cursor):
     cursor.execute('PRAGMA table_info(clientes)')
-    colunas = [info[1] for info in cursor.fetchall()]  # Lista de colunas existentes
-    if 'data' not in colunas:
+    colunas = [info[1] for info in cursor.fetchall()] 
+    if 'Nome' not in colunas:
         cursor.execute('''
             ALTER TABLE clientes
-            ADD COLUMN data DATE
+            ADD COLUMN Nome TEXT
         ''')
-        print("Coluna 'data' adicionada à tabela 'clientes'.")
+        print("Coluna 'Nome' adicionada à tabela 'clientes'.")
+    else:
+        print("Coluna 'Nome' já existente na tabela 'clientes'.")
 
 # Função para inserir dados no banco de dados
 def inserir_cliente(cursor, conn, dados):
@@ -94,3 +96,26 @@ def buscar_clientes(cursor):
 def buscar_pagamentos(cursor):
     cursor.execute('SELECT * FROM pagamentos')
     return cursor.fetchall()
+
+
+def excluir_coluna(cursor):
+    cursor.execute('PRAGMA table_info(pagamentos)')
+    colunas = [info[1] for info in cursor.fetchall()]  # Lista de colunas existentes
+    if 'data_prevista' in colunas:
+        cursor.execute('''
+            ALTER TABLE pagamentos
+            DROP COLUMN data_prevista
+        ''')
+        print("Coluna 'data_prevista' excluida da tabela 'pagamentos'.")
+
+    else:
+        print("Coluna 'data_prevista' nao existente na tabela 'pagamentos'.")
+
+
+def colunas_existentes(cursor):
+    cursor.execute('PRAGMA table_info(pagamentos)')
+    colunas = [info[1] for info in cursor.fetchall()]  # Lista de colunas existentes
+    print(colunas)
+    return colunas
+
+

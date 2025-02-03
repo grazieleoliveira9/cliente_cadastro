@@ -1,14 +1,17 @@
 import streamlit as st
 import pandas as pd
-from core.db import conectar_banco, criar_tabela, inserir_cliente, adicionar_coluna_data
+from core.db import conectar_banco, criar_tabela, inserir_cliente, adicionar_coluna_nome,  excluir_coluna, colunas_existentes
 import streamlit as st
 import pandas as pd
 from core.logger import logger
 from datetime import datetime
 
 conn, c = conectar_banco()
-criar_tabela(c)
-adicionar_coluna_data(c) 
+# criar_tabela(c)
+# adicionar_coluna_nome(c) 
+# colunas_existentes(c)
+# ordernar_colunas(c)
+
 
 try: 
 
