@@ -90,8 +90,8 @@ def inserir_pagamento(cursor, conn, dados_pagamento, id_cliente, nome_cliente ):
   
 
 def buscar_clientes(cursor):
-    cursor.execute('SELECT * FROM clientes')
-    return cursor.fetchall()
+    cursor.execute('SELECT Nome FROM clientes ORDER BY data DESC')
+    return [row[0] for row in cursor.fetchall()]
 
 def buscar_pagamentos(cursor):
     cursor.execute('SELECT * FROM pagamentos')

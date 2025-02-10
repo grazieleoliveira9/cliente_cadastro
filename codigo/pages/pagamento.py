@@ -24,10 +24,12 @@ def salvar_dados_txt(dados, filename='dados_pagamento.txt'):
 
 
 def pagamento():
+
+    logger.info("Iniciando pagamento")
     clientes = buscar_clientes(c)
-    clientes_dict = {cliente[1]: cliente[0] for cliente in clientes} 
+    # clientes_dict = {cliente[1]: cliente[0] for cliente in clientes} 
    
-    cliente_selecionado = st.selectbox("Selecione o cliente", options=list(clientes_dict.keys()))
+    cliente_selecionado = st.selectbox("Selecione o cliente", options=list(clientes))
 
     col1, col2, col3 = st.columns(3)
 
@@ -49,7 +51,7 @@ def pagamento():
 
 
 
-    valor = st.text_input("Valor do pagamento",  placeholder="", max_chars=10)
+    valor = st.number_input("Valor do pagamento",  placeholder="",  min_value=0.0, format="%.2f")
 
     botao =st.button("Concluir pedido")
 
@@ -82,11 +84,13 @@ def pagamento():
             st.error(f"Erro ao salvar pagamento no banco de dados: {e}")
             logger.error(f"Erro ao salvar pagamento: {e}")
 
-    st.dataframe(st.session_state['df'])
+    # st.dataframe(st.session_state['df'])
 
+try:
+    pagamento()
 
-pagamento()
-conn.close()
+finally:
+    conn.close()
 
 
 

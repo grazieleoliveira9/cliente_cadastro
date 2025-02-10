@@ -4,10 +4,9 @@ from core.db import conectar_banco, criar_tabela, inserir_cliente, adicionar_col
 import streamlit as st
 import pandas as pd
 from core.logger import logger
-from datetime import datetime
 
 conn, c = conectar_banco()
-# criar_tabela(c)
+criar_tabela(c)
 # adicionar_coluna_nome(c) 
 # colunas_existentes(c)
 # ordernar_colunas(c)
@@ -153,7 +152,10 @@ try:
                 'CEP': [str(cep)],
                 'UF': [str(uf)]
             })
-        
+
+            st.session_state['df'] = pd.concat([st.session_state['df'], novo_cadastro], ignore_index=True)
+            salvar_dados_txt(novo_cadastro)
+
        
         if not nome or not cpf_cnpj or not pessoa or not email or not telefone_fixo or not telefone_celular or not endereco or not numero or not bairro or not cidade or not complemento or not cep or not uf:
             st.warning('Preencha todos os campos!', icon="⚠️")
@@ -162,11 +164,9 @@ try:
         else:
             st.success('Cadastrado com sucesso!', icon="✅")
 
-        
 
-
-            st.session_state['df'] = pd.concat([st.session_state['df'], novo_cadastro], ignore_index=True)
-            salvar_dados_txt(novo_cadastro)
+            # st.session_state['df'] = pd.concat([st.session_state['df'], novo_cadastro], ignore_index=True)
+            # salvar_dados_txt(novo_cadastro)
 
             # Inserir no banco de dados SQLite
             inserir_cliente(c, conn, novo_cadastro)
