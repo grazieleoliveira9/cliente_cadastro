@@ -1,4 +1,5 @@
 import sqlite3
+from core.logger import logger
 
 # Conectar ao banco de dados SQLite (ou criar se não existir)
 def conectar_banco():
@@ -90,8 +91,10 @@ def inserir_pagamento(cursor, conn, dados_pagamento, id_cliente, nome_cliente ):
   
 
 def buscar_clientes(cursor):
-    cursor.execute('SELECT Nome FROM clientes ORDER BY data DESC')
-    return [row[0] for row in cursor.fetchall()]
+    cursor.execute('SELECT Nome FROM clientes ORDER BY Nome DESC')
+    clientes = [cliente[0] for cliente in cursor.fetchall()]
+    logger.info(f"Clientes encontrados: {clientes}")
+    return clientes
 
 def buscar_pagamentos(cursor):
     cursor.execute('SELECT * FROM pagamentos')

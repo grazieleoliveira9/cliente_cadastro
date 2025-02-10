@@ -967,3 +967,48 @@ Complemento: casa amarela
 CEP: 54517120
 UF: PE
 
+Data: 2025-02-10
+Nome: Joanna Marli da Silva Souza
+CPF/CNPJ: 14536923601
+Fisica/Juridica: Pessoa Física
+Email: joanna_marli@gmail.com
+Telefone fixo: 8135217413
+Telefone celular: 81999633652
+Endereço: Avenida Padre Marcelo Rossi
+Nº casa/apto: 58
+Bairro: Graças
+Cidade: Recife
+Complemento: Apto 201
+CEP: 54517961
+UF: PE
+
+Data: 2025-02-10
+Nome: Gilberto Holanda
+CPF/CNPJ: 14789632587
+Fisica/Juridica: Pessoa Física
+Email: gilberto@gmail.com
+Telefone fixo: 8135214225
+Telefone celular: 81985471236
+Endereço: Rua Jose Teixeira
+Nº casa/apto: 47
+Bairro: Boa Vista
+Cidade: Recife 
+Complemento: 
+CEP: 54639123
+UF: PE
+
+Data: 2025-02-10
+Nome: Gilberto Holanda
+CPF/CNPJ: 14789632587
+Fisica/Juridica: Pessoa Física
+Email: gilberto@gmail.com
+Telefone fixo: 8135214225
+Telefone celular: 81985471236
+Endereço: Rua Jose Teixeira
+Nº casa/apto: 47
+Bairro: Boa Vista
+Cidade: Recife 
+Complemento: não possui
+CEP: 54639123
+UF: PE
+

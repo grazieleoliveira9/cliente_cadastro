@@ -16,7 +16,6 @@ try:
 
 
     st.title("Cadastro de cliente")
-    # st.subheader("_Streamlit_ is :blue[cool] :sunglasses:")
     st.subheader ("Insira os dados do cliente", divider=True)
 
 
@@ -107,29 +106,31 @@ try:
         endereco = st.text_input("Endereço:",  placeholder="Rua, Avenida", max_chars=50)
 
 
-        col4, col5 = st.columns(2)
-
-        with col4:
-            numero = st.text_input("Nº casa/apto:", placeholder="Número", max_chars=10)
-
-        
-        bairro = st.text_input("Bairro:", placeholder="Bairro", max_chars=40)
-
-
-        cidade = st.text_input("Cidade:", placeholder="Cidade", max_chars=40)
+        col5, col6, col7, col8 = st.columns(4)
 
         with col5:
+            numero = st.text_input("Nº casa/apto:", placeholder="Número", max_chars=10)
+
+        with col6:
+            bairro = st.text_input("Bairro:", placeholder="Bairro", max_chars=40)
+
+        with col7:
+            cidade = st.text_input("Cidade:", placeholder="Cidade", max_chars=40)
+
+        with col8:
             complemento = st.text_input("Complemento:", placeholder="", max_chars=50)
 
 
 
-        col6, col7 = st.columns(2)
+        col9, col10 = st.columns(2)
 
-        with col6:
+        with col9:
             cep = st.text_input("CEP:", placeholder="Ex: 00000-000", max_chars=8)
 
-        with col7:
-            uf = st.text_input("UF:", placeholder="UF", max_chars=2)
+        with col10:
+            uf = st.selectbox(
+                "UF:", placeholder="UF", options=["AC", "AL", "AP", "AM", "BA", "CE", "DF", "ES", "GO", "MA", "MT", "MS", "MG", "PA", "PB", "PR", "PE", "PI", "RJ", "RN", 
+                                                  "RS", "RO", "RR", "SC", "SP", "SE", "TO"])
         
         botao_cadastro = st.button("Cadastrar") 
 

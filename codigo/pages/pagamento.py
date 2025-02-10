@@ -7,7 +7,9 @@ conn, c = conectar_banco()
 criar_tabela(c)
 # atualizar_tabela_pagamentos(c)
 
-st.title("Pagamento")
+st.title("Financeiro")
+
+st.subheader ("Pagamentos", divider=True)
 
 if 'df' not in st.session_state:
     st.session_state['df'] = pd.DataFrame(columns=['Valor', 'Data', 'Forma de Pagamento', 'N° de Recibo', 'Parcelas', 'Nome'])
@@ -25,38 +27,44 @@ def salvar_dados_txt(dados, filename='dados_pagamento.txt'):
 
 def pagamento():
 
+    col1 = st.columns(2)
+
+    with col1[0]:
+        data = st.date_input("Data do Pagamento", format="DD/MM/YYYY")
+        data_formatada = data.strftime('%d/%m/%Y')
+
+
+
     logger.info("Iniciando pagamento")
     clientes = buscar_clientes(c)
-    # clientes_dict = {cliente[1]: cliente[0] for cliente in clientes} 
-   
-    cliente_selecionado = st.selectbox("Selecione o cliente", options=list(clientes))
+    if not clientes:
+        st.warning("Nenhum cliente cadastrado.", icon="⚠️")
+    else:
+        cliente_selecionado = st.selectbox("Selecione o cliente", clientes)
 
-    col1, col2, col3 = st.columns(3)
 
-    with col1: forma_pagamento = st.radio("Forma de pagamento", options=["Cartão de Crédito", "Cartão de Débito", "Pix", "Dinheiro"])
+    col2, col3, col4 = st.columns(3)
+    with col2: 
+        forma_pagamento = st.radio("Forma de pagamento", options=["Cartão de Crédito", "Cartão de Débito", "Pix", "Dinheiro"])
     
     parcelas = ''
     if forma_pagamento == "Cartão de Crédito":
         parcelas = st.radio("Número de parcelas", options=["1x", "2x", "3x", "4x"], horizontal=True)
 
-    
-
-    with col2:
-        data = st.date_input("Data de Pagamento", format="DD/MM/YYYY")
-        data_formatada = data.strftime('%d/%m/%Y')
 
 
     with col3:
         numero_recibo  = st.text_input("Número do recibo/nota fiscal",  placeholder="", max_chars=10)
 
 
+    with col4:
+        valor = st.number_input("Valor do pagamento",  placeholder="",  min_value=0.0, format="%.2f")
 
-    valor = st.number_input("Valor do pagamento",  placeholder="",  min_value=0.0, format="%.2f")
 
-    botao =st.button("Concluir pedido")
+    botao =st.button("Concluir pagamento")
 
     if botao:
-        id_cliente = clientes_dict[cliente_selecionado]
+        id_cliente = cliente_selecionado
         nome_cliente = cliente_selecionado
 
         try:
