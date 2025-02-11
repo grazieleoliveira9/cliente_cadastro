@@ -45,7 +45,10 @@ def pagamento():
 
     col2, col3, col4 = st.columns(3)
     with col2: 
-        forma_pagamento = st.radio("Forma de pagamento", options=["Cartão de Crédito", "Cartão de Débito", "Pix", "Dinheiro"])
+        forma_pagamento = st.radio(
+            "Forma de pagamento", options=["Cartão de Crédito", "Cartão de Débito", "Pix", "Dinheiro"]
+            )
+    
     
     parcelas = ''
     if forma_pagamento == "Cartão de Crédito":

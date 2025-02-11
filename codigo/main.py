@@ -7,7 +7,7 @@ from core.logger import logger
 
 conn, c = conectar_banco()
 criar_tabela(c)
-# adicionar_coluna_nome(c) 
+adicionar_coluna_nome(c) 
 # colunas_existentes(c)
 # ordernar_colunas(c)
 
@@ -16,27 +16,13 @@ try:
 
 
     st.title("Cadastro de cliente")
-    st.subheader ("Insira os dados do cliente", divider=True)
+    # st.subheader ("Insira os dados do cliente", divider=True)
 
-
-    def limpar_campos():
-        st.session_state['Nome'] = ""
-        st.session_state['cpf_cnpj'] = ""
-        st.session_state['fisica_juridica'] = ""
-        st.session_state['email'] = ""
-        st.session_state['telefone_fixo'] = ""
-        st.session_state['telefone_celular'] = ""
-        st.session_state['endereco'] = ""
-        st.session_state['numero'] = ""
-        st.session_state['bairro'] = ""
-        
-        st.session_state['cidade'] = ""
-        st.session_state['complemento'] = ""
-        st.session_state['cep'] = ""
-        st.session_state['uf'] = ""
 
     if 'df' not in st.session_state:
-        st.session_state['df'] = pd.DataFrame(columns=['Data','Nome', 'CPF/CNPJ', 'Fisica/Juridica', 'Email', 'Telefone fixo', 'Telefone celular', 'Endereço', 'Nº casa/apto', 'Bairro', 'Cidade', 'Complemento', 'CEP', 'UF'])
+        st.session_state['df'] = pd.DataFrame(columns=['Data','Nome', 'CPF/CNPJ', 'Fisica/Juridica', 'Email', 'Telefone fixo', 'Telefone celular', 
+                                                       'Endereço', 'Nº casa/apto', 'Bairro', 'Cidade', 'Complemento', 'CEP', 'UF', 'RG']
+                                                       )
 
     def salvar_dados_txt(dados, filename='clientes.txt'):
         with open(filename, 'a', encoding='utf-8') as f:
@@ -54,6 +40,7 @@ try:
             f.write(f"Complemento: {dados['Complemento'][0]}\n")
             f.write(f"CEP: {dados['CEP'][0]}\n")
             f.write(f"UF: {dados['UF'][0]}\n")
+            f.write(f"RG: {dados['RG'][0]}\n")
             f.write("\n")
 
 
@@ -85,49 +72,55 @@ try:
         
             
 
-        # col9, col10 = st.columns(2)
-
-        email = st.text_input("Email:", placeholder="Ex: joao@gmail.com", max_chars=50)
-        
-
-        # with col10: codigo = random.randint(1000, 9999)
-
+        st.subheader ("Contatos", divider=True)
 
         col3, col4 = st.columns(2)
 
         with col3:
+            email = st.text_input("Email:", placeholder="Ex: joao@gmail.com", max_chars=50)
+        
+        with col4:
+            rg = st.text_input("RG:", placeholder="Ex: 00.000.000-0", max_chars=11)
+        
+        
+
+
+
+        col4, col5 = st.columns(2)
+
+        with col4:
             telefone_fixo = st.text_input("Telefone fixo:", placeholder="Ex: (XX) XXXX-XXXX", max_chars=15)
 
 
-        with col4:
+        with col5:
 
             telefone_celular = st.text_input("Telefone celular:",  placeholder="Ex: (XX) XXXX-XXXX", max_chars=14)
 
         endereco = st.text_input("Endereço:",  placeholder="Rua, Avenida", max_chars=50)
 
 
-        col5, col6, col7, col8 = st.columns(4)
-
-        with col5:
-            numero = st.text_input("Nº casa/apto:", placeholder="Número", max_chars=10)
+        col6, col7, col8, col9 = st.columns(4)
 
         with col6:
-            bairro = st.text_input("Bairro:", placeholder="Bairro", max_chars=40)
+            numero = st.text_input("Nº casa/apto:", placeholder="Número", max_chars=10)
 
         with col7:
-            cidade = st.text_input("Cidade:", placeholder="Cidade", max_chars=40)
+            bairro = st.text_input("Bairro:", placeholder="Bairro", max_chars=40)
 
         with col8:
+            cidade = st.text_input("Cidade:", placeholder="Cidade", max_chars=40)
+
+        with col9:
             complemento = st.text_input("Complemento:", placeholder="", max_chars=50)
 
 
 
-        col9, col10 = st.columns(2)
-
-        with col9:
-            cep = st.text_input("CEP:", placeholder="Ex: 00000-000", max_chars=8)
+        col10, col11 = st.columns(2)
 
         with col10:
+            cep = st.text_input("CEP:", placeholder="Ex: 00000-000", max_chars=8)
+
+        with col11:
             uf = st.selectbox(
                 "UF:", placeholder="UF", options=["AC", "AL", "AP", "AM", "BA", "CE", "DF", "ES", "GO", "MA", "MT", "MS", "MG", "PA", "PB", "PR", "PE", "PI", "RJ", "RN", 
                                                   "RS", "RO", "RR", "SC", "SP", "SE", "TO"])
@@ -151,7 +144,8 @@ try:
                 'Cidade': [str(cidade)],
                 'Complemento': [str(complemento)],
                 'CEP': [str(cep)],
-                'UF': [str(uf)]
+                'UF': [str(uf)],
+                'RG': [str(rg)]
             })
 
             st.session_state['df'] = pd.concat([st.session_state['df'], novo_cadastro], ignore_index=True)
@@ -171,7 +165,7 @@ try:
 
             # Inserir no banco de dados SQLite
             inserir_cliente(c, conn, novo_cadastro)
-            limpar_campos()
+            # limpar_campos()
             logger.info('Cadastrado de cliente feito com sucesso!')
 
             
