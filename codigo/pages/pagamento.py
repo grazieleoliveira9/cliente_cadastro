@@ -1,18 +1,20 @@
 import streamlit as st
 import pandas as pd
-from core.db import conectar_banco, criar_tabela, inserir_pagamento, buscar_clientes
+from core.db import conectar_banco, criar_tabela, inserir_pagamento, buscar_clientes, adicionar_coluna_nome, excluir_coluna
 from core.logger import logger
 
 conn, c = conectar_banco()
 criar_tabela(c)
 # atualizar_tabela_pagamentos(c)
+# adicionar_coluna_nome(c) 
+# excluir_coluna(c)
 
 st.title("Financeiro")
 
 st.subheader ("Pagamentos", divider=True)
 
 if 'df' not in st.session_state:
-    st.session_state['df'] = pd.DataFrame(columns=['Valor', 'Data', 'Forma de Pagamento', 'N° de Recibo', 'Parcelas', 'Nome'])
+    st.session_state['df'] = pd.DataFrame(columns=['Valor', 'Data', 'Forma de Pagamento', 'N° de Recibo', 'Parcelas', 'Nome', 'servico'])
 
 def salvar_dados_txt(dados, filename='dados_pagamento.txt'):
     with open(filename, 'a') as f:
@@ -22,8 +24,9 @@ def salvar_dados_txt(dados, filename='dados_pagamento.txt'):
         f.write(f"N° de Recibo: {dados['N° de Recibo'][0]}\n")
         f.write(f"Parcelas: {dados['Parcelas'][0]}\n")
         f.write(f"Nome: {dados['Nome'][0]}\n")
+        f.write(f"servico: {dados['servico'][0]}\n")
         f.write("\n")
-
+    logger.info("Dados de pagamentos salvos em txt")
 
 def pagamento():
 
@@ -34,7 +37,6 @@ def pagamento():
         data_formatada = data.strftime('%d/%m/%Y')
 
 
-
     logger.info("Iniciando pagamento")
     clientes = buscar_clientes(c)
     if not clientes:
@@ -42,9 +44,15 @@ def pagamento():
     else:
         cliente_selecionado = st.selectbox("Selecione o cliente", clientes)
 
+    col2 = st.columns(2)
+    with col2[0]:
+        servico = st.selectbox(
+            "Tipo de Serviço",  options=["Arte Placa", "Logo para Caminhao", "Logo para Carro", "Logo para Moto", "Outro"]
+            )
 
-    col2, col3, col4 = st.columns(3)
-    with col2: 
+
+    col3, col4, col5 = st.columns(3)
+    with col3: 
         forma_pagamento = st.radio(
             "Forma de pagamento", options=["Cartão de Crédito", "Cartão de Débito", "Pix", "Dinheiro"]
             )
@@ -56,11 +64,11 @@ def pagamento():
 
 
 
-    with col3:
+    with col4:
         numero_recibo  = st.text_input("Número do recibo/nota fiscal",  placeholder="", max_chars=10)
 
 
-    with col4:
+    with col5:
         valor = st.number_input("Valor do pagamento",  placeholder="",  min_value=0.0, format="%.2f")
 
 
@@ -77,7 +85,8 @@ def pagamento():
                     'Data': [data_formatada],  # Converte a data para string
                     'Forma_de_Pagamento': [forma_pagamento],
                     'N°_de_Recibo': [numero_recibo ],
-                    'Parcelas': [int(parcelas[0]) if parcelas else None]
+                    'Parcelas': [int(parcelas[0]) if parcelas else None],
+                    'servico': [servico]
                 }, id_cliente, nome_cliente)
             
             novo_pagamento = pd.DataFrame({
@@ -86,7 +95,8 @@ def pagamento():
                 'Forma de Pagamento': [forma_pagamento],
                 'N° de Recibo': [numero_recibo],
                 'Parcelas': [parcelas],
-                'Nome': [nome_cliente]
+                'Nome': [nome_cliente],
+                'servico': [servico]
           })
             st.session_state['df'] = pd.concat([st.session_state['df'], novo_pagamento], ignore_index=True)
             st.success('Pagamento concluído!', icon="✅")

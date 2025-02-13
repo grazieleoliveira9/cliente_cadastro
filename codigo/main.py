@@ -7,7 +7,8 @@ from core.logger import logger
 
 conn, c = conectar_banco()
 criar_tabela(c)
-adicionar_coluna_nome(c) 
+# excluir_coluna(c)
+# adicionar_coluna_nome(c) 
 # colunas_existentes(c)
 # ordernar_colunas(c)
 
@@ -47,8 +48,8 @@ try:
 
     def form_cadastro():
     
-        col10 = st.columns(2)
-        with col10[0]:
+        col13 = st.columns(2)
+        with col13[0]:
             data = st.date_input("Data de Cadastro", format="DD/MM/YYYY")
             data_obj = data.strftime("%Y-%m-%d")
         
@@ -80,107 +81,101 @@ try:
             email = st.text_input("Email:", placeholder="Ex: joao@gmail.com", max_chars=50)
         
         with col4:
-            rg = st.text_input("RG:", placeholder="Ex: 00.000.000-0", max_chars=11)
+            rg = st.text_input("RG:", placeholder="Ex: 0.000.000", max_chars=7)
         
         
 
 
 
-        col4, col5 = st.columns(2)
+        col5, col6 = st.columns(2)
 
-        with col4:
+        with col5:
             telefone_fixo = st.text_input("Telefone fixo:", placeholder="Ex: (XX) XXXX-XXXX", max_chars=15)
 
 
-        with col5:
+        with col6:
 
             telefone_celular = st.text_input("Telefone celular:",  placeholder="Ex: (XX) XXXX-XXXX", max_chars=14)
 
+
         endereco = st.text_input("Endereço:",  placeholder="Rua, Avenida", max_chars=50)
 
-
-        col6, col7, col8, col9 = st.columns(4)
-
-        with col6:
-            numero = st.text_input("Nº casa/apto:", placeholder="Número", max_chars=10)
+        col7, col8 = st.columns(2)
 
         with col7:
-            bairro = st.text_input("Bairro:", placeholder="Bairro", max_chars=40)
-
-        with col8:
-            cidade = st.text_input("Cidade:", placeholder="Cidade", max_chars=40)
-
-        with col9:
-            complemento = st.text_input("Complemento:", placeholder="", max_chars=50)
-
-
-
-        col10, col11 = st.columns(2)
-
-        with col10:
             cep = st.text_input("CEP:", placeholder="Ex: 00000-000", max_chars=8)
 
-        with col11:
+        with col8:
             uf = st.selectbox(
                 "UF:", placeholder="UF", options=["AC", "AL", "AP", "AM", "BA", "CE", "DF", "ES", "GO", "MA", "MT", "MS", "MG", "PA", "PB", "PR", "PE", "PI", "RJ", "RN", 
                                                   "RS", "RO", "RR", "SC", "SP", "SE", "TO"])
+
+
+
+        col9, col10 = st.columns(2)
+
+        with col9:
+            numero = st.text_input("Nº casa/apto:", placeholder="Número", max_chars=10)
+
+        with col10:
+            bairro = st.text_input("Bairro:", placeholder="Bairro", max_chars=40)
+
+
+        col11, col12 = st.columns(2)
+
+        with col11:
+            cidade = st.text_input("Cidade:", placeholder="Cidade", max_chars=40)
+
+        with col12:
+            complemento = st.text_input("Complemento:", placeholder="", max_chars=50)
+
+
         
         botao_cadastro = st.button("Cadastrar") 
 
         if botao_cadastro:
             logger.info("Cadastrando dados do cliente...")
 
-            novo_cadastro = pd.DataFrame({
-                'Data': [str(data_obj)],
-                'Nome': [str(nome)],
-                'CPF/CNPJ': [str(cpf_cnpj)],
-                'Fisica/Juridica': [str(pessoa)],
-                'Email': [str(email)],
-                'Telefone fixo': [str(telefone_fixo)],
-                'Telefone celular': [str(telefone_celular)],
-                'Endereço': [str(endereco)],
-                'Nº casa/apto': [str(numero)],
-                'Bairro': [str(bairro)],
-                'Cidade': [str(cidade)],
-                'Complemento': [str(complemento)],
-                'CEP': [str(cep)],
-                'UF': [str(uf)],
-                'RG': [str(rg)]
-            })
-
-            st.session_state['df'] = pd.concat([st.session_state['df'], novo_cadastro], ignore_index=True)
-            salvar_dados_txt(novo_cadastro)
-
-       
-        if not nome or not cpf_cnpj or not pessoa or not email or not telefone_fixo or not telefone_celular or not endereco or not numero or not bairro or not cidade or not complemento or not cep or not uf:
+        if not nome or not cpf_cnpj or not pessoa or not email or not telefone_fixo or not telefone_celular or not endereco or not numero or not bairro or not cidade or not cep or not uf:
             st.warning('Preencha todos os campos!', icon="⚠️")
-            logger.warning('Campos nao preenchidos, cadastro nao realizado!')
+            logger.error('Campos nao preenchidos, cadastro nao realizado!')
 
         else:
-            st.success('Cadastrado com sucesso!', icon="✅")
+            if cpf_cnpj in st.session_state['df']['CPF/CNPJ'].values:
+                st.warning('Cliente com este CPF/CNPJ já cadastrado!', icon="⚠️")
+            else:
+                novo_cadastro = pd.DataFrame({
+                    'Data': [str(data_obj)],
+                    'Nome': [str(nome)],
+                    'CPF/CNPJ': [str(cpf_cnpj)],
+                    'Fisica/Juridica': [str(pessoa)],
+                    'Email': [str(email)],
+                    'Telefone fixo': [str(telefone_fixo)],
+                    'Telefone celular': [str(telefone_celular)],
+                    'Endereço': [str(endereco)],
+                    'Nº casa/apto': [str(numero)],
+                    'Bairro': [str(bairro)],
+                    'Cidade': [str(cidade)],
+                    'Complemento': [str(complemento)],
+                    'CEP': [str(cep)],
+                    'UF': [str(uf)],
+                    'RG': [str(rg)]
+                })
 
+                st.session_state['df'] = pd.concat([st.session_state['df'], novo_cadastro], ignore_index=True)
+                salvar_dados_txt(novo_cadastro)
+                inserir_cliente(c, conn, novo_cadastro)
+                st.success('Cadastrado com sucesso!', icon="✅")
+                logger.info("Cadastro foi efetuado com sucesso!")
 
-            # st.session_state['df'] = pd.concat([st.session_state['df'], novo_cadastro], ignore_index=True)
-            # salvar_dados_txt(novo_cadastro)
-
-            # Inserir no banco de dados SQLite
-            inserir_cliente(c, conn, novo_cadastro)
-            # limpar_campos()
-            logger.info('Cadastrado de cliente feito com sucesso!')
 
             
 
 
-            # if 'nome' not in st.session_state:
-            #     limpar_campos()
-
-            # limpar_campos()
-
     form_cadastro()
 
+finally:
     conn.close()
-except Exception as e:
-    logger.error(f"Erro ao cadastrar cliente: {str(e)}", exc_info=True)
 
 
 

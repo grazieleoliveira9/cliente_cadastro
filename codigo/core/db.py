@@ -40,6 +40,7 @@ def criar_tabela(cursor):
             Parcelas INT,
             id_cliente INTEGER,
             nome_cliente TEXT,
+            servico TEXT,
             FOREIGN KEY(id_cliente) REFERENCES clientes(id)
         )
     ''')
@@ -47,14 +48,16 @@ def criar_tabela(cursor):
 def adicionar_coluna_nome(cursor):
     cursor.execute('PRAGMA table_info(clientes)')
     colunas = [info[1] for info in cursor.fetchall()] 
-    if 'RG' not in colunas:
+    if 'servico' not in colunas:
         cursor.execute('''
-            ALTER TABLE clientes
-            ADD COLUMN RG TEXT
+            ALTER TABLE pagamentos
+            ADD COLUMN servico TEXT
         ''')
-        print("Coluna 'RG' adicionada à tabela 'clientes'.")
+        print("Coluna 'Servico' adicionada à tabela 'clientes'.")
+        logger.info("Coluna 'Servico' adicionada à tabela 'clientes'.")
     else:
-        print("Coluna 'RG' já existente na tabela 'clientes'.")
+        print("Coluna 'Servico' já existente na tabela 'clientes'.")
+        logger.warning("Coluna 'Servico' já existente na tabela 'clientes'.")
 
 # Função para inserir dados no banco de dados
 def inserir_cliente(cursor, conn, dados):
@@ -63,7 +66,7 @@ def inserir_cliente(cursor, conn, dados):
            data, nome, cpf_cnpj, fisica_juridica, email, telefone_fixo, telefone_celular,
             endereco, numero, bairro, cidade, complemento, cep, uf, rg
         )
-        VALUES (?,?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        VALUES (?,?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
     ''', (
         dados['Data'][0], dados['Nome'][0], dados['CPF/CNPJ'][0], dados['Fisica/Juridica'][0],
         dados['Email'][0], dados['Telefone fixo'][0], dados['Telefone celular'][0],
@@ -76,15 +79,18 @@ def inserir_cliente(cursor, conn, dados):
 def inserir_pagamento(cursor, conn, dados_pagamento, id_cliente, nome_cliente ):
     cursor.execute('''
         INSERT INTO pagamentos (
-            valor, data, Forma_de_Pagamento, N°_de_Recibo, Parcelas, id_cliente, nome_cliente
+            valor, data, Forma_de_Pagamento, N°_de_Recibo, Parcelas, id_cliente, nome_cliente, servico
         )
-        VALUES (?, ?, ?, ?, ?, ?, ?)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?)
     ''', (
         
         
         dados_pagamento['Valor'][0], dados_pagamento['Data'][0], 
         dados_pagamento['Forma_de_Pagamento'][0], dados_pagamento['N°_de_Recibo'][0],
-        dados_pagamento['Parcelas'][0], id_cliente, nome_cliente
+        dados_pagamento['Parcelas'][0],      
+        id_cliente, 
+        nome_cliente,
+        dados_pagamento['servico'][0]
     ))
     conn.commit()
 
@@ -93,7 +99,7 @@ def inserir_pagamento(cursor, conn, dados_pagamento, id_cliente, nome_cliente ):
 def buscar_clientes(cursor):
     cursor.execute('SELECT Nome FROM clientes ORDER BY Nome DESC')
     clientes = [cliente[0] for cliente in cursor.fetchall()]
-    logger.info(f"Clientes encontrados: {clientes}")
+    # logger.info(f"Clientes encontrados: {clientes}")
     return clientes
 
 def buscar_pagamentos(cursor):
@@ -104,15 +110,15 @@ def buscar_pagamentos(cursor):
 def excluir_coluna(cursor):
     cursor.execute('PRAGMA table_info(pagamentos)')
     colunas = [info[1] for info in cursor.fetchall()]  # Lista de colunas existentes
-    if 'data_prevista' in colunas:
+    if 'id_cliente' in colunas:
         cursor.execute('''
-            ALTER TABLE pagamentos
-            DROP COLUMN data_prevista
+            ALTER TABLE pagamentos 
+            DROP COLUMN id_cliente
         ''')
-        print("Coluna 'data_prevista' excluida da tabela 'pagamentos'.")
+        logger.info("Coluna 'id_cliente' excluida da tabela 'pagamentos'.")
 
     else:
-        print("Coluna 'data_prevista' nao existente na tabela 'pagamentos'.")
+        logger.error("Coluna 'servico' nao existente na tabela 'pagamentos'.")
 
 
 def colunas_existentes(cursor):
